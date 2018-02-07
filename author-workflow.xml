@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mathbook>
+    <book xml:id="author-workflow">
+        <title>Author Workflow</title>
+
+        <frontmatter>
+            <titlepage>
+                <author>
+                    <personname><pretext /> Authors</personname>
+               </author>
+                <date><today /></date>
+            </titlepage>
+        </frontmatter>
+
+        <chapter>
+            <title>WorkFlow</title>
+
+            <p>TODO</p>
+        </chapter>
+    </book>
+</mathbook>
