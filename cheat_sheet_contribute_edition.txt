@@ -92,6 +92,9 @@ f) If everything looks okay, then scroll to the top of the page
 g) Click the green "Create pull request" button to the bottom left
    of the big box.
 
+   If it is not obvious that your changes are only for the next
+   edition (and not for the current edition) then mention that.
+
 h) Probably you are done.  But if the owner wants changes before
    accepting your pull request, they will leave a comment and you
    will see that comment in an email.  Repeat steps 6 - 10 to make
