@@ -18,5 +18,18 @@
 
             <p>TODO</p>
         </chapter>
+
+        <chapter>
+            <title>Exercises</title>
+
+            <p>
+              We can put exercises and other stuff here.
+            </p>
+
+            <p>
+              WHen this section gets too big,
+              we can split it off as a separate file and xinclude it.
+            </p>
+        </chapter>
     </book>
 </mathbook>
