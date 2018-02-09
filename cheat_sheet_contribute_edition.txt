@@ -76,21 +76,34 @@ b) If you have recently done stop 10 above, then on your fork there
 
 c) You should now be on a page titled "Open a pull request".
 
-   Slowly scroll down that page and look at the changes you made.
+d) Under the "Open a pull request" you will see four tabs.
+   Pull down the second tab and choose "edition".
+
+   Note: this is an additional step that does not happen when
+   you are making a small correction to the master branch.
+
+e) Slowly scroll down that page and look at the changes you made.
    If you find something that needs to be changed, hit "back" in
    your browser and go to step 6 above.
 
-d) If everything looks okay, then scroll to the top of the page
+f) If everything looks okay, then scroll to the top of the page
    and write a useful message in the big box.
 
-e) Click the green "Create pull request" button to the bottom left
+g) Click the green "Create pull request" button to the bottom left
    of the big box.
 
-f) Probably you are done.  But if the owner wants changes before
-   accepting your pull request, the repeat steps 6 - 10.
+h) Probably you are done.  But if the owner wants changes before
+   accepting your pull request, they will leave a comment and you
+   will see that comment in an email.  Repeat steps 6 - 10 to make
+   those changes.
+
    You do not need to make another pull request, because your changes
    will automatically be added to the current pull request.
    (Note: the previous sentence is true as long as your changes are
     on the same branch that made the pull request.)
-
+   However, you do need to leave a comment telling the owner that
+   you are done making changes (do that even if you put that information
+   in a commit message).  To leave a comment, go to the project under
+   the owner's account on GitHub, click on the "Pull requests" tab,
+   click on your pull request, and scroll down to the Leave a Comment box.
 
