@@ -35,12 +35,6 @@ current edition of the project, use another cheat sheet.
 
     If there is a merge conflict, get help.
 
-8'. An alternative to 8, which might actually be better, is:
-    git checkout edition
-    git pull upstream edition
-    git checkout [name_of_new_branch]
-    git rebase edition
-
 9.  Check your work.
     This might mean building the HTML and looking at the
     parts you changed.
@@ -65,7 +59,7 @@ a) Check that you are on your fork on GitHub.  Near the top left part
 
       forked from  the_owners_name/the_name_of_the_project
 
-b) If you have recently done stop 10 above, then on your fork there
+b) If you have recently done step 10 above, then on your fork there
    should be a short and wide yellow rectangle partway down the page.
    On the left side of the rectangle should be the name of your branch,
    and on the right side should be a green button labeled
