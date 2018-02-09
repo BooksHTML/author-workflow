@@ -83,6 +83,9 @@ c) You should now be on a page titled "Open a pull request".
 d) If everything looks okay, then scroll to the top of the page
    and write a useful message in the big box.
 
+   If it is not obvious that your changes are only for the next
+   edition (and not for the current edition) then mention that.
+
 e) Click the green "Create pull request" button to the bottom left
    of the big box.
 
