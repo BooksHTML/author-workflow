@@ -30,6 +30,28 @@
               WHen this section gets too big,
               we can split it off as a separate file and xinclude it.
             </p>
+
+            <exercise>
+              <statement>
+                <p>
+                  What is the largest prime number mentioned in a popular song?
+                </p>
+              </statement>
+            </exercise>
+
+            <exercise xml:id="exercise-essay">
+              <title>Essay Question: Compare and Contrast</title>
+              <statement>
+                <p>
+                  Write a short paragraph which compares, and contrasts,
+                  the definite and indefinite integral.
+                </p>
+              </statement>
+              <hint>
+                  <p>Start writing!</p>
+              </hint>
+            </exercise>
+
         </chapter>
     </book>
 </mathbook>
