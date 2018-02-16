@@ -50,6 +50,16 @@
               </statement>
             </exercise>
 
+            <exercise>
+              <title>A little ditty by Fermat</title>
+              <statement>
+                <p>
+                  Prove that if <m>n\geq 3</m> is an integer,
+                  then there do not exist three positive inters <m>x,y,z</m>
+                  such that <m>x^2+y^2=z^2</m>.
+                </p>
+              </statement>
+            </exercise>
 
             <exercise xml:id="exercise-essay">
               <title>Essay Question: Compare and Contrast</title>
