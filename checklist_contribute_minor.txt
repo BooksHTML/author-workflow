@@ -1,9 +1,9 @@
 
-Cheat sheet for contributing SMALL CORRECTION to a project
+Checklist sheet for contributing SMALL CORRECTIONs to a project
 that you have already forked and cloned.
 
 If you have a larger change that you wish to to contribute
-to the next edition of the project, use another cheat sheet.
+to the next edition of the project, use another checklist.
 
 When in doubt, do
     git status
@@ -26,28 +26,7 @@ to see which branch you are on, and what files have been changed.
 
     It is okay to repeat 6 and 7 several times.
 
-8.  git pull upstream master
-
-    (If you get put into the vi editor, hit the "esc" key,
-     and then type  :wq
-     When you get a chance, change the default git editor
-     to one that you know how to use.)
-
-    If there is a merge conflict, get help.
-
-8'. An alternative to 8, which might actually be better, is:
-    git checkout master
-    git pull upstream master
-    git checkout [name_of_new_branch]
-    git rebase master
-
-    If there is a merge conflict:
-
-    git rebase --abort
-
-    and then go seek help
-  
-9.  Check your work.
+8.  Check your work.
     This might mean building the HTML and looking at the
     parts you changed.
 
@@ -57,9 +36,9 @@ to see which branch you are on, and what files have been changed.
     will tell you that the html is up to date (even though it isn't).
     In that case, do "make -B html" to force it to remake the html.
 
-10.  git push origin [name_of_new_branch]
+9.  git push origin [name_of_new_branch]
 
-11. Go to your fork of the project on GitHub and submit
+10. Go to your fork of the project on GitHub and submit
     a pull request.
 
 a) Check that you are on your fork on GitHub.  Near the top left part
