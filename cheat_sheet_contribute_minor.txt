@@ -1,9 +1,9 @@
 
-Cheat sheet for contributing SMALL CORRECTION to a project
+Checklist sheet for contributing SMALL CORRECTIONs to a project
 that you have already forked and cloned.
 
 If you have a larger change that you wish to to contribute
-to the next edition of the project, use another cheat sheet.
+to the next edition of the project, use another checklist.
 
 When in doubt, do
     git status
