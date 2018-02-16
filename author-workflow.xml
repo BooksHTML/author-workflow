@@ -27,8 +27,8 @@
             </p>
 
             <p>
-              WHen this section gets too big,
-              we can split it off as a separate file and xinclude it.
+              When this section gets too big,
+              we can split it off as a separate file and <c>xinclude</c> it.
             </p>
 
             <exercise>
