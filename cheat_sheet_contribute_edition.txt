@@ -75,6 +75,12 @@ d) Under the "Open a pull request" you will see four tabs.
 
    Note: this is an additional step that does not happen when
    you are making a small correction to the master branch.
+   If you forget to do this before you clicked the button in g),
+   all is not lost. Go to the page for the pull request on Github
+   and click the Edit button on the right edge opposite the title.
+   You will then be able to change the title and also have a dropdown
+   to change the branch into which you want to incorporate the
+   pull request.
 
 e) Slowly scroll down that page and look at the changes you made.
    If you find something that needs to be changed, hit "back" in
