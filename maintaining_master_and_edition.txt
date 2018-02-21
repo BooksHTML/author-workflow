@@ -1,0 +1,62 @@
+
+The goal is to have a master branch which contains the current
+edition and is frequently updated with small corrections, and
+also an "edition" branch which gets major changes for the next
+edition and also the minor changes that go into master.
+
+Pull requests can come into either master or edition.  If the
+request has the correct base branch, then handle it just like
+any other pull request.
+
+The most likely error is a pull request into master that should
+go into edition.  To change the base branch, go to the pull request
+and find the "Edit" button in the upper right corner.  You may need
+to scroll sideways if your screen is narrow.  Click that button
+to see a pull-down under the box containing the title of the pull
+request.  Choose the correct base branch, and also see why it is not
+helpful to have a large number of obsolete branches in the repository.
+
+It could also happen that a pull request contains several changes,
+some of which should go into master and some of which should go
+into edition.  Seek expert help, and figure out how to stop that
+happening in the future.
+
+If the pull request went into edition, you are done except
+for updating your local clone.  To do that:
+
+1) git checkout edition
+
+2) git pull upstream edition
+
+If the pull request went into master, you now have to put those
+changes into edition.  On your computer,
+
+1) git checkout master
+
+2) git pull upstream master
+
+3) git checkout edition
+
+4) git pull upstream edition
+
+5) git merge master
+
+Step 5) will generate a merge commit message.  If that puts you
+into vi and you don't like vi, then change your default git editor.
+(Hit  :wq  to get out of vi)
+
+Step 5) can also create a merge conflict.  Deal with it just like
+any other merge conflict.
+
+The changes to master have now been merged into your local
+edition branch, so now you need to put that into upstream.
+Either of these works, and the project should decide which
+of these is official policy:
+
+4) git push origin edition
+   and then send a pull request and accept it immediately.
+
+4') git push upstream edition
+
+You are done!
+
