@@ -21,27 +21,32 @@ some of which should go into master and some of which should go
 into edition.  Seek expert help, and figure out how to stop that
 happening in the future.
 
-If the pull request went into edition, you are done.
-
-If it went into master, you now have to put those commits into edition.
-
-On your computer,
+If the pull request went into edition, you are done except
+for updating your local clone.  To do that:
 
 1) git checkout edition
 
 2) git pull upstream edition
 
-3) git pull upstream master
+If the pull request went into master, you now have to put those
+changes into edition.  On your computer,
 
-Step 3) will generate a merge commit message.  If that puts you
+1) git checkout master
+
+2) git pull upstream master
+
+3) git checkout edition
+
+4) git pull upstream edition
+
+5) git merge master
+
+Step 5) will generate a merge commit message.  If that puts you
 into vi and you don't like vi, then change your default git editor.
+(Hit  :wq  to get out of vi)
 
-Step 3) can also create a merge conflict.  Deal with it just like
+Step 5) can also create a merge conflict.  Deal with it just like
 any other merge conflict.
-
-Note that Step 3) should not be replaced another set of steps
-that involves rebasing.  Since other people have branched off the
-edition fork, rebasing it will cause many headaches.
 
 The changes to master have now been merged into your local
 edition branch, so now you need to put that into upstream.
@@ -53,7 +58,5 @@ of these is official policy:
 
 4') git push upstream edition
 
-You are done, except that your local master branch does not yet
-have the commits from the pull request you just accepted.
-(Think about why step 3 above did not accomplish that.)
+You are done!
 
