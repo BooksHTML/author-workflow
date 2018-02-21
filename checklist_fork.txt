@@ -1,0 +1,62 @@
+
+Checklist for getting ready to contribute to an existing project.
+
+Requirements: an account on GitHub, a current version of PreTeXt
+on your computer, and very basic knowledge of Unix-style commands.
+(The Unix knowledge you need is:  creating directories, listing files,
+directory paths, and moving around the directory tree.  The commands
+you may need to use are:  mkdir, cd, ls -lrt, pwd .)
+
+We will use Active Calculus (single variable) as an example.
+
+1.  Go to
+   https://github.com/active-calculus/active-calculus-single-mbx
+and click "Fork" in the upper right hand corner.
+
+If you have to choose where to fork it to, choose your GitHub account.
+
+You will now be on a different GitHub page: the page for your fork
+in your account.  Keep that page open because you will need it
+again.
+
+2.  On your computer, go into the directory where you want to
+put the files for Active Calculus.  (You may need to create that
+directory and then cd into it.)
+
+Do:
+   git clone [the URL from the green button of your fork]
+where the green button is on YOUR fork of the book.  Click the
+green button and then copy the URL that appears.  For me, it was
+   https://github.com/davidfarmer/active-calculus-single-mbx.git
+
+3.  The previous step created a new directory.  Go into it.
+
+4.  Do:
+   git remote add upstream [URL from the green button of the project]
+
+The easiest way to get to that green button is to go to your fork
+and click the link after the tiny "forked from" in the upper left part
+of the page.
+
+5.  You are done!  Do the above steps just once for each project,
+and never again.  See separate checklists for how to contribute
+to that project.
+
+BUT, for Active Calculus there is one more step to set things up.
+Go back to GitHub and scroll down to read step 3 of the README.
+You need to copy a file and edit a few lines.  The specific steps are
+
+   cp Makefile.paths.original Makefile.paths
+   [edit Makefile.paths  and put the appropriate paths on 3 lines]
+
+Note: for the PRJ line, you probably want to put the output of
+   pwd
+And for the HTMLOUT line you probably want to put "/html" at the
+end of what you put for PRJ.
+
+Then you can do:
+
+   make html
+
+and in a few minutes you will have the HTML version.
+
