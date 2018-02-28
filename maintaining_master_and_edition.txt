@@ -1,6 +1,8 @@
 
+Checklist for keeping both the master and the edition branch up-to-date
+
 The goal is to have a master branch which contains the current
-edition and is frequently updated with small corrections, and
+version and is frequently updated with small corrections, and
 also an "edition" branch which gets major changes for the next
 edition and also the minor changes that go into master.
 
@@ -9,12 +11,13 @@ request has the correct base branch, then handle it just like
 any other pull request.
 
 The most likely error is a pull request into master that should
-go into edition.  To change the base branch, go to the pull request
-and find the "Edit" button in the upper right corner.  You may need
-to scroll sideways if your screen is narrow.  Click that button
-to see a pull-down under the box containing the title of the pull
-request.  Choose the correct base branch, and also see why it is not
-helpful to have a large number of obsolete branches in the repository.
+go into edition.  To change the base branch, on GitHub go to the
+pull request and find the "Edit" button in the upper right corner.
+You may need to scroll sideways if your screen is narrow.
+Click that button to see a pull-down under the box containing the
+title of the pull request.  Choose the correct base branch,
+and also see why it is not helpful to have a large number of
+obsolete branches in the repository.
 
 It could also happen that a pull request contains several changes,
 some of which should go into master and some of which should go
