@@ -1,0 +1,178 @@
+<html>
+<head></head>
+
+<body>
+
+<h1>The basics of using git to collaboratively write a book</h1>
+
+<p>
+You are writing a book and you would like other people
+to help.  Or someone else is writing a book and you
+would like to give them some help.  Probably you have
+heard that it is "easy" to do this: just use git.
+But what, exactly, does that mean?
+</p>
+
+<p>
+Below are checklists to lead you through the process.
+Just like for pilots and surgeons, these checklists will
+help ensure that you don't forget an important step.
+But unlike pilots and surgeons, you can do this without
+any training: just find the correct checklist and follow it.
+</p>
+
+<p>
+The primary audience for this document is someone who
+wants to contribute to an existing book.  We assume
+the author has already made the book available on GitHub
+(https://github.com).
+</h2>
+
+<h2>Prerequisites</h2>
+
+<p>
+You will need an account on GitHub.  It is free.
+</p>
+
+<p>
+You will need a very basic knowledge of Unix-style commands.
+(The Unix knowledge you need is:  creating directories, listing files,
+directory paths, and moving around the directory tree.  The commands
+you may need to use are:  mkdir, cd, ls -lrt, pwd .)
+</p>
+
+<p>
+You need to be able to edit files with a plain-text editor
+(not a word processor, so not Word, WordPad, OpenOffice, etc).
+We recommend <a href="https://www.sublimetext.com/">Sublime Text</a>.
+Emacs and vi/vim are good choices, if you already know how to
+use them.
+</p>
+
+
+<h2>Terminology</h2>
+
+
+<p>
+It helps to know a small amount of terminology,
+but the terminology is not needed for using the checklists.
+Feel free to skip down to the 
+<a href="#forcontributors">For Contributors</a>
+or
+<a href="#forauthors">For Authors</a>
+section and find the checklist you need.
+</p>
+
+<p>
+The source files for the book, text files, image files, etc,
+go into a <b>repository</b> on GitHub (https://github.com).
+Think of a repository as all the files you need for some
+specific purpose, in this case a book.  That repository has
+an <b>owner</b>, who typically is the main author of the
+book.
+</p>
+
+<p>
+You will need to make a copy of that repository into your
+GitHub account, and then make another copy on your personal computer.
+That same sentence, using
+the proper terminology:  You will <b>fork</b> that repository
+into your GitHub account, and then <b>clone</b> it to your
+personal computer.
+</p>
+
+<p>
+You will use a program called <b>git</b> to transfer files and
+keep track of all the changes that you and other people have made.
+If git is not already on your computer, you will need
+to install it.
+</p>
+
+<p>
+When you are ready to make changes to the files, you will set
+up a temporary universe where all of your changes are isolated
+from all the other copies of the repository.  That new universe
+is called a <b>branch</b>.  The name comes from the idea that
+you can keep splitting off new universes, like the branches of
+a tree.
+</p>
+
+<p>
+Once you are done with the work on a branch you will transfer
+that branch to your account on GitHub, and then ask the  
+owner to incorporate your changes into the official copy of
+the book.  That same sentence, in proper git terminology:
+Once you are done with the work on a branch you will <b>push</b>
+the branch to your fork, and then send a
+<b>pull request</b> to the owner.
+</p>
+
+<p>
+The branch you made has served its purpose.  You can delete it
+once the owner <b>merges</b> your pull request.  Make a new branch
+the next time you want to contribute to that project.
+</p>
+
+
+<h2 id="forcontributors">For Contributors</h2>
+
+<p>
+You want to contribute to a book, and that
+book is already in a repository on GitHub.
+</p>
+
+<p>First, get a copy of that book onto your local computer.
+Only do this once per book.
+<a href="https://github.com/BooksHTML/author-workflow/blob/master/checklist_fork.txt">Checklist for forking a repository</a>.
+</p>
+
+<p>
+Are you making a small correction to the book?  Use the
+<a href="https://github.com/BooksHTML/author-workflow/blob/master/checklist_contribute_correction.txt">Checklist for making a correction</a>.
+</p>
+
+<p>
+Are you contributing material for a future edition of the book?
+Use the
+<a href="https://github.com/BooksHTML/author-workflow/blob/master/checklist_contribute_edition.txt">Checklist for contributing to the next edition</a>.
+</p>
+
+
+<h2 id="forauthors">For Authors</h2>
+
+<p>
+Your book is on GitHub, and now you are hoping that other
+people will contribute to it.
+</p>
+
+<p>
+You plan some significant changes to the book, but you don't
+want those changes to appear until the next edition of the book.
+To create the <q>edition</q> branch of the book, use the
+<a href="https://github.com/BooksHTML/author-workflow/blob/master/checklist_create_edition.txt">Checklist for starting the next annual edition</a>.
+Note: if someone forked your book prior to your creation of the
+edition branch, then they need the
+<a href="https://github.com/BooksHTML/author-workflow/blob/master/checklist_get_new_branches.txt">Checklist for getting new branches</a>.
+</p>
+
+<p>
+If you have a master branch and an edition branch, then
+some care is needed to keep them both up-to-date.  For example,
+if someone corrects a typo then they should do it on the
+master branch.  But you also want to correct that typo in the
+edition branch, right?  To do that, see the
+<a href="https://github.com/BooksHTML/author-workflow/blob/master/maintaining_master_and_edition.txt">Checklist for maintaining master and edition</a>.
+</p>
+
+<h2>To Do</h2>
+
+<p>The following checklists are still needed:</p>
+<ul>
+<li>Author evaluate and merge a pull request</li>
+<li>Making changes to an existing pull request</li>
+<li>Resolving merge conflicts</li>
+<li>more...</li>
+</ul>
+
+</body>
+</html>
