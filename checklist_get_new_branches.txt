@@ -1,0 +1,28 @@
+
+Checklist to get new edition/feature branches
+
+The author of a book may wish to work on a new feature
+of the book, or a new annual edition, without immediately
+putting that material into the current version of the book.
+To do that, the author will make a branch for that work,
+and will expect contributions to go into that branch.
+
+If the author creates a branch after you have forked the
+book. then your computer will not know about that new branch.
+To remedy that problem, do these steps in your local clone
+(assuming "edition" is the name of the new branch):
+
+1. git checkout master
+
+2. git fetch upstream
+
+3. git checkout edition
+
+4. git push origin edition 
+
+5. git checkout master
+
+
+Now you can contribute to the edition branch, as described in
+a separate checklist.
+
