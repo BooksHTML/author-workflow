@@ -22,7 +22,7 @@ current edition of the project, use another checklist.
 6.  Do whatever work you want to do
 
 7.  git add [list of files that you changed]
-    git commit -m "Brief descriotion of what you did."
+    git commit -m "Brief description of what you did."
 
     It is okay to repeat 6 and 7 several times.
 
@@ -64,20 +64,25 @@ current edition of the project, use another checklist.
 
  c) You should now be on a page titled "Open a pull request".
 
- d) Slowly scroll down that page and look at the changes you made.
+ d) Underneath the big words "Open a pull request" you should
+    see 4 rectangular buttons.  The second button should say
+        base: edition
+    If it says  base: master  then click it and select  base: edition .
+
+ e) Slowly scroll down that page and look at the changes you made.
     If you find something that needs to be changed, hit "back" in
     your browser and go to step 6 above.
 
- e) If everything looks okay, then scroll to the top of the page
+ f) If everything looks okay, then scroll to the top of the page
     and write a useful message in the big box.
 
- f) Click the green "Create pull request" button to the bottom left
+ g) Click the green "Create pull request" button to the bottom left
     of the big box.
 
     If it is not obvious that your changes are only for the next
     edition (and not for the current edition) then mention that.
 
- g) Probably you are done.  But if the owner wants changes before
+ h) Probably you are done.  But if the owner wants changes before
     accepting your pull request, they will leave a comment and you
     will see that comment in an email.  See the "intermediate"
     checklist for how to make changes to an existing pull request.
